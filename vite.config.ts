@@ -4,9 +4,7 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
-  vite: {
-    define: {
-      'process.env.NITRO_PRESET': '"vercel"'
-    }
+  nitro: {
+    preset: "vercel"
   }
 });
