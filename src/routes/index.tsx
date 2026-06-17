@@ -216,27 +216,25 @@ function Index() {
         </ol>
 
         {/* CTA */}
-        <button
-          type="button"
-          onClick={() => {
-            window.location.href = "#get-started";
-          }}
-          className="group mt-8 flex w-full items-center justify-center gap-2 rounded-2xl bg-[#CC0000] px-6 py-4 text-lg font-bold text-white shadow-[0_15px_30px_-12px_rgba(204,0,0,0.6)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#b30000] hover:shadow-[0_20px_38px_-12px_rgba(204,0,0,0.75)] active:translate-y-0 active:shadow-[0_8px_20px_-10px_rgba(204,0,0,0.6)]"
-        >
-          Claim My $500 Target Gift Card
-          <svg
-            className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M5 12h14" />
-            <path d="m12 5 7 7-7 7" />
-          </svg>
-        </button>
+       <a href="https://giftclick.org/aff_c?offer_id=317&aff_id=157998"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group mt-8 flex w-full items-center justify-center gap-2 rounded-2xl bg-[#CC0000] px-6 py-4 text-lg font-bold text-white no-underline"
+>
+  Claim My $500 Target Gift Card
+  <svg
+    className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M5 12h14" />
+    <path d="m12 5 7 7-7 7" />
+  </svg>
+</a>
 
         <p className="mt-4 text-center text-xs text-neutral-500">
           Available in selected countries — US, UK, AU, CA
